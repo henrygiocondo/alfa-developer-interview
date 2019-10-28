@@ -1,0 +1,11 @@
+C:\Users\Gabri\source\repos\ClientRestAirPort\ClientRestAirPort\bin\Debug\netcoreapp2.1\ClientRestAirPort.deps.json
+C:\Users\Gabri\source\repos\ClientRestAirPort\ClientRestAirPort\bin\Debug\netcoreapp2.1\ClientRestAirPort.runtimeconfig.json
+C:\Users\Gabri\source\repos\ClientRestAirPort\ClientRestAirPort\bin\Debug\netcoreapp2.1\ClientRestAirPort.runtimeconfig.dev.json
+C:\Users\Gabri\source\repos\ClientRestAirPort\ClientRestAirPort\bin\Debug\netcoreapp2.1\ClientRestAirPort.dll
+C:\Users\Gabri\source\repos\ClientRestAirPort\ClientRestAirPort\obj\Debug\netcoreapp2.1\ClientRestAirPort.csprojAssemblyReference.cache
+C:\Users\Gabri\source\repos\ClientRestAirPort\ClientRestAirPort\obj\Debug\netcoreapp2.1\ClientRestAirPort.csproj.CoreCompileInputs.cache
+C:\Users\Gabri\source\repos\ClientRestAirPort\ClientRestAirPort\obj\Debug\netcoreapp2.1\ClientRestAirPort.AssemblyInfoInputs.cache
+C:\Users\Gabri\source\repos\ClientRestAirPort\ClientRestAirPort\obj\Debug\netcoreapp2.1\ClientRestAirPort.AssemblyInfo.cs
+C:\Users\Gabri\source\repos\ClientRestAirPort\ClientRestAirPort\bin\Debug\netcoreapp2.1\ClientRestAirPort.pdb
+C:\Users\Gabri\source\repos\ClientRestAirPort\ClientRestAirPort\obj\Debug\netcoreapp2.1\ClientRestAirPort.dll
+C:\Users\Gabri\source\repos\ClientRestAirPort\ClientRestAirPort\obj\Debug\netcoreapp2.1\ClientRestAirPort.pdb
