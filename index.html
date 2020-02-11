@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alpha - Sistema de Gestão</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Trippin Advanced Usages.</h1>
+                <hr>
+                <p>Teste realizado por: Pablo Custodio Carneiro</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Pessoas</h5>
+                            <p class="card-text">Consultar lista de pessoas.</p>
+                            <a href="#" class="btn btn-primary" id="btnPeople">Acessar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Aeroporto</h5>
+                            <p class="card-text">Consultar lista de aeroportos.</p>
+                            <a href="#" class="btn btn-primary" id="btnAirport">Acessar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="row pb_disable" id="panelPeople">
+                    <h2>Pessoas</h2>
+                    <table class="table">
+                    </table>
+                </div>
+                <div class="row pb_disable" id="panelAirport">
+                    <h2>Aeroporto</h2>
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Nome</th>
+                                <th scope="col">localização</th>
+                                <th scope="col">Pais</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>                
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
