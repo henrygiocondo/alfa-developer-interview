@@ -1,0 +1,265 @@
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+
+            
+            </style>
+
+        <title>Alfa</title>
+
+    </head>
+    <body>
+
+        
+        <h1>Consultar nome e sobrenome das pessoas com nome de usuario que contenha Henry </h1>
+        <input type="text" name="cBuscaTeste1" id="cBuscaTeste1" value="Henry" class="" style="width: 10%">
+        <input type="button" name="btnTeste1" id="btnTeste1" value="Pesquisar" class="">
+        <table width="100%"  id="IDexemplo1" >
+            
+        </table>
+
+        <h1>Incluir uma pessoa</h1>
+        <label id="UserName">UserName:</label>
+        <input type="text" name="cUserName" id="cUserName" value="" class="" style="width: 10%">
+        <br>
+        <br>
+        <label id="FirstName">FirstName:</label>
+        <input type="text" name="cFirstName" id="cFirstName" value="" class="" style="width: 10%">
+        <br>
+        <br>
+        <label id="LastName">LastName:</label>
+        <input type="text" name="cLastName" id="cLastName" value="" class="" style="width: 10%">
+        <br>
+        <br>
+        <label id="Email">Email:</label>
+        <input type="text" name="cEmail" id="cEmail" value="" class="" style="width: 10%">
+        <br>
+        <br>
+        <label id="Address">Address:</label>
+        <input type="text" name="cAddress" id="cAddress" value="" class="" style="width: 10%">
+        <br>
+        <br>
+        <label id="City">City Name:</label>
+        <input type="text" name="cCity" id="cCity" value="" class="" style="width: 10%">
+        <br>
+        <br>
+        <label id="CountryRegion">CountryRegion:</label>
+        <input type="text" name="cCountryRegion" id="cCountryRegion" value="" class="" style="width: 10%">
+        <br>
+        <br>
+        <input type="button" name="btnTeste2" id="btnTeste2" value="Incluir" class="">
+
+        <h1>Deletar uma pessoa</h1>
+        <label id="UserName">UserName:</label>
+        <input type="text" name="cDelUserName" id="cDelUserName" value="" class="" style="width: 10%">
+        <input type="button" name="btnTeste2" id="btnTeste3" value="Deletar" class="">
+
+        <h1>Pesquisar aeroportos com o endereco</h1>
+        <label id="Address">Address:</label>
+        <input type="text" name="cAddressPesq" id="cAddressPesq" value="District" class="" style="width: 10%">
+        <input type="button" name="btnTeste4" id="btnTeste4" value="Pesquisar" class="">
+        <table width="100%"  id="IDexemplo4" >
+            
+        </table>
+    
+    </body>
+</html>
+<script src="js/jquery-2.1.1.js"></script>
+<script>
+    $(document).ready(function() {
+        
+        //teste 1 - Consultar nome e sobrenome das pessoas com nome de usuário que contenha Henry
+        $('body').on("click", "#btnTeste1", function () {
+            $("#btnTeste1").prop("disabled", true);
+            $('.exemplo1').closest('tr').remove();
+
+            $.ajax({
+                url: "Rest.php",
+                type: 'POST',
+                dataType: 'JSON',
+                data: {'url':'btnTeste1','Busca': $('#cBuscaTeste1').val() ,'tipo' : 'GET' },
+                success: function (resposta) {
+                    $("#btnTeste1").prop("disabled", false);
+                    //console.log(resposta);
+                    console.log(resposta['value']);
+
+                    var cols = "";
+                    if (resposta['value'].length > 0) {
+                        cols += '<tr class="exemplo1">';
+                        cols += '<td><b>UserName</b></td>';
+                        cols += '<td><b>FirstName</b></td>';
+                        cols += '<td><b>LastName</b></td>';
+                        cols += '</tr>';
+                    }else{
+                        alert('Nao encontrado dados para a pesquisa');
+                    }
+
+                    for (var x = 0; x < resposta['value'].length; x++) {
+                        cols += '<tr class="exemplo1">';
+                        cols += '<td>' + resposta['value'][x]["UserName"] + '</td>';
+                        cols += '<td>' + resposta['value'][x]["FirstName"] + '</td>';
+                        cols += '<td>' + resposta['value'][x]["LastName"] + '</td>';
+                        cols += '</tr>';
+                    }
+                    if (resposta['value'].length > 0) {
+                        $('#IDexemplo1').append(cols);
+                    }
+
+                }, error: function (jqXHR, textStatus, errorThrown) {
+                    console.log('erro');
+                    $("#btnTeste1").prop("disabled", false);
+                }
+            });
+        });
+        
+        //teste 2 - Incluir uma pessoa
+        $('body').on("click", "#btnTeste2", function () {
+            
+            if($('#cUserName').val().length <= 0){
+                alert('UserName e um campo obrigatorio');
+                return;
+            }
+
+            if($('#cFirstName').val().length <= 0){
+                alert('FirstName e um campo obrigatorio');
+                return;
+            }
+
+            if($('#cLastName').val().length <= 0){
+                alert('LastName e um campo obrigatorio');
+                return;
+            }
+            $("#btnTeste2").prop("disabled", true);
+            var cJsonEnv = "";
+
+            cJsonEnv += '{';
+            cJsonEnv += '    "UserName": "'+$('#cUserName').val()+'",';
+            cJsonEnv += '    "FirstName": "'+$('#cFirstName').val()+'",';
+            cJsonEnv += '    "LastName": "'+$('#cLastName').val()+'",';
+            cJsonEnv += '    "Emails": [';
+            cJsonEnv += '        "'+$('#cEmail').val()+'"';
+            cJsonEnv += '    ],';
+            cJsonEnv += '    "AddressInfo": [{';
+            cJsonEnv += '        "Address": "'+$('#cAddress').val()+'",';
+            cJsonEnv += '        "City": {';
+            cJsonEnv += '            "Name": "'+$('#cCity').val()+'",';
+            cJsonEnv += '            "CountryRegion": "'+$('#cCountryRegion').val()+'",';
+            cJsonEnv += '            "Region": "ID"';
+            cJsonEnv += '        }';
+            cJsonEnv += '    }]';
+            cJsonEnv += '}';
+
+                //console.log(cJsonEnv);
+                $.ajax({
+                    url: "Rest.php",
+                    type: 'POST',
+                    dataType: 'JSON',
+                    data: {'url':'btnTeste2','Busca': cJsonEnv ,'tipo' : 'POST' },
+                    success: function (resposta) {
+                        $('#cUserName').val('');
+                        $('#cFirstName').val('');
+                        $('#cLastName').val('');
+                        $('#cEmail').val('');
+                        $('#cAddress').val('');
+                        $('#cCity').val('');
+                        $('#cCountryRegion').val('');
+
+                        alert('Cadastrado com sucesso!');
+                        $("#btnTeste2").prop("disabled", false);
+
+                    }, error: function (jqXHR, textStatus, errorThrown) {
+                        console.log('erro');
+                        $("#btnTeste2").prop("disabled", false);
+                    }
+                });
+            });
+
+
+
+            //teste 3 - Excluir a pessoa que você incluiu acima
+            $('body').on("click", "#btnTeste3", function () {
+                $("#btnTeste3").prop("disabled", true);
+                    $.ajax({
+                        url: "Rest.php",
+                        type: 'POST',
+                        dataType: 'JSON',
+                        data: {'url':'btnTeste3','Busca': $('#cDelUserName').val()  ,'tipo' : 'DELETE' },
+                        success: function (resposta) {
+                            console.log('3',resposta);
+                            $('#cDelUserName').val('');
+                            alert('Deletado');
+                            $("#btnTeste3").prop("disabled", false);
+                        }, error: function (jqXHR, textStatus, errorThrown) {
+                            console.log('erro');
+                            $("#btnTeste3").prop("disabled", false);
+                        }
+                    });
+                });
+            
+            //teste 4 - Consultar todos os aeroportos que o endereço da localização contenha a palavra 'District'
+            $('body').on("click", "#btnTeste4", function () {
+                $("#btnTeste4").prop("disabled", true);
+                $('.exemplo4').closest('tr').remove();
+
+                $.ajax({
+                    url: "Rest.php",
+                    type: 'POST',
+                    dataType: 'JSON',
+                    data: {'url':'btnTeste4','Busca': $('#cAddressPesq').val()  ,'tipo' : 'GET' },
+                    success: function (resposta) {
+                        console.log('4',resposta);
+                        $('#cAddressPesq').val('');
+                        $("#btnTeste4").prop("disabled", false);
+                        var cols = "";
+                        if (resposta['value'].length > 0) {
+                            cols += '<tr class="exemplo4">';
+                            cols += '<td><b>Name</b></td>';
+                            cols += '<td><b>Address</b></td>';
+                            cols += '<td><b>City</b></td>';
+                            cols += '</tr>';
+                        }else{
+                            alert('Nao encontrado dados para a pesquisa');
+                        }
+
+                        for (var x = 0; x < resposta['value'].length; x++) {
+                            cols += '<tr class="exemplo4">';
+                            cols += '<td>' + resposta['value'][x]["Name"] + '</td>';
+                            cols += '<td>' + resposta['value'][x]["Location"]['Address'] + '</td>';
+                            cols += '<td>' + resposta['value'][x]["Location"]['City']['Name'] + '</td>';
+                            cols += '</tr>';
+                        }
+                        if (resposta['value'].length > 0) {
+                            $('#IDexemplo4').append(cols);
+                        }
+                        
+                    }, error: function (jqXHR, textStatus, errorThrown) {
+                        console.log('erro');
+                        $("#btnTeste4").prop("disabled", false);
+                    }
+                });
+            });
+
+    });
+</script>
