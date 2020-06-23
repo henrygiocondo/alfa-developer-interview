@@ -1,0 +1,17 @@
+{
+  "name": "teste-alfa",
+  "version": "1.0.0",
+  "description": "Teste para consultoria Alfa",
+  "main": "consultaHenry.js",
+  "scripts": {
+    "script1": "Node ./src/consultaHenry.js",
+    "script2": "Node ./src/adicionaUser.js",
+    "script3": "Node ./src/deletaUser.js",
+    "script4": "Node ./src/consultaAeroportos.js"
+  },
+  "author": "Julio Cesar Corcini de Medeiros",
+  "license": "ISC",
+  "dependencies": {
+    "https": "^1.0.0"
+  }
+}
