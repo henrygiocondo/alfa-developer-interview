@@ -1,0 +1,18 @@
+Os 4 Scripts Requisitados foram configurados desta forma:
+
+
+(Consultar nome e sobrenome das pessoas com nome de usuário que contenha Henry)
+Comando: npm run script1
+
+(Incluir uma pessoa)
+Comando: npm run script2
+
+(Excluir a pessoa que você incluiu acima)
+Comando: npm run script3
+
+(Consultar todos os aeroportos que o endereço da localização contenha a palavra 'District')
+Comando: npm run script4
+
+
+
+Obs: A Pessoa que está sendo adicinada e removida nos Scripts 2 e 3 é o Usuário (Julio Cesar)
