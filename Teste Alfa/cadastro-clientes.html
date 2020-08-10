@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="clientes.css" />
+    <link rel="stylesheet" href="cadastro-clientes.css">
+    <title>Alfa!</title>
+  </head>
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      Alfa!
+    </a>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" href="clientes.html">Usuários</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aeroporto.html">Aeroportos</a>
+      </li>
+    </ul>
+  </nav>
+
+  <form data-form>
+        <div class="container">
+    <div class="form-group">
+      <label>UserName</label>
+      <input type="text" class="form-control" data-username placeholder="Digite seu UserName aqui" />
+    </div>
+    <div class="form-group">
+      <label>Nome</label>
+      <input type="text" class="form-control" data-name placeholder="Digite seu Nome aqui" />
+    </div>
+    <div class="form-group">
+      <label>Sobrenome</label>
+      <input type="text" class="form-control" data-lastname placeholder="Digite seu LastName aqui" />
+    </div>
+    <div class="form-group">
+      <label>Email</label>
+      <input type="text" class="form-control" data-email placeholder="Digite seu Email aqui" />
+    </div>
+    <div class="form-group">
+      <label>Endereço</label>
+      <input type="text" class="form-control" data-address placeholder="Digite seu Endereço aqui" />
+    </div>
+    <div class="form-group">
+      <label>Cidade</label>
+      <input type="text" class="form-control" data-city placeholder="Digite seu Cidade aqui" />
+    </div>
+    <div class="form-group">
+      <label>Estado</label>
+      <input type="text" class="form-control" data-countryRegion placeholder="Digite seu Estado aqui" />
+    </div>
+    <div class="form-group">
+      <label>Região</label>
+      <input type="text" class="form-control" data-region placeholder="Digite seu Região aqui" />
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+  </form>
+
+  <body>
+    
+    <script src="./api/cliente.js"></script>
+    <script src="cadastro-clientes.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
