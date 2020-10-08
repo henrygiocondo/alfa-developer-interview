@@ -1,0 +1,15 @@
+C:\Users\leowe\source\repos\TesteAlfa\TesteAlfa\bin\Debug\TesteAlfa.exe.config
+C:\Users\leowe\source\repos\TesteAlfa\TesteAlfa\bin\Debug\TesteAlfa.exe
+C:\Users\leowe\source\repos\TesteAlfa\TesteAlfa\bin\Debug\TesteAlfa.pdb
+C:\Users\leowe\source\repos\TesteAlfa\TesteAlfa\bin\Debug\Newtonsoft.Json.dll
+C:\Users\leowe\source\repos\TesteAlfa\TesteAlfa\bin\Debug\RestSharp.dll
+C:\Users\leowe\source\repos\TesteAlfa\TesteAlfa\bin\Debug\Newtonsoft.Json.xml
+C:\Users\leowe\source\repos\TesteAlfa\TesteAlfa\bin\Debug\RestSharp.xml
+C:\Users\leowe\source\repos\TesteAlfa\TesteAlfa\obj\Debug\TesteAlfa.csprojAssemblyReference.cache
+C:\Users\leowe\source\repos\TesteAlfa\TesteAlfa\obj\Debug\TesteAlfa.Form1.resources
+C:\Users\leowe\source\repos\TesteAlfa\TesteAlfa\obj\Debug\TesteAlfa.Properties.Resources.resources
+C:\Users\leowe\source\repos\TesteAlfa\TesteAlfa\obj\Debug\TesteAlfa.csproj.GenerateResource.cache
+C:\Users\leowe\source\repos\TesteAlfa\TesteAlfa\obj\Debug\TesteAlfa.csproj.CoreCompileInputs.cache
+C:\Users\leowe\source\repos\TesteAlfa\TesteAlfa\obj\Debug\TesteAlfa.csproj.CopyComplete
+C:\Users\leowe\source\repos\TesteAlfa\TesteAlfa\obj\Debug\TesteAlfa.exe
+C:\Users\leowe\source\repos\TesteAlfa\TesteAlfa\obj\Debug\TesteAlfa.pdb
