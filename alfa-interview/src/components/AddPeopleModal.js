@@ -36,7 +36,6 @@ const AddPeopleModal = ({ show, onHide, setToastInfo }) => {
       config
     )
       .then((res) => {
-        console.log(res);
         setToastInfo({
           show: true,
           message: "Usuário cadastrado com sucesso!",
@@ -45,7 +44,6 @@ const AddPeopleModal = ({ show, onHide, setToastInfo }) => {
         onHide();
       })
       .catch((err) => {
-        console.log(err);
         setToastInfo({ show: true, message: `${err}`, type: "error" });
       });
   };

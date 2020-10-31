@@ -23,7 +23,6 @@ const DeletePeopleModal = ({ show, onCancel, setToastInfo }) => {
       config
     )
       .then((res) => {
-        console.log(res);
         setToastInfo({
           show: true,
           message: "Usuário removido com sucesso!",
@@ -32,7 +31,6 @@ const DeletePeopleModal = ({ show, onCancel, setToastInfo }) => {
         onCancel();
       })
       .catch((err) => {
-        console.log(err);
         setToastInfo({ show: true, message: `${err}`, type: "error" });
       });
   };
