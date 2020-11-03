@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/07/21 11:40:31.000.528,=C:\Users\hudson.dias\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/03 11:36:37.000.336,=C:\Users\hudson.dias\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/03 11:36:37.000.106,=emsserverapi.dcp</Transaction>
+    <Transaction>2020/08/03 12:23:44.000.789,=C:\Users\hudson.dias\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/03 12:24:07.000.676,=C:\Users\hudson.dias\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/25 10:35:55.000.098,=C:\Users\hudson.dias\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/25 10:44:32.000.707,=C:\Users\hudson.dias\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/25 10:45:17.000.130,=C:\Users\hudson.dias\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/25 17:41:04.000.484,=C:\Users\hudson.dias\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/03 13:06:43.000.491,=C:\Users\hudson.dias\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/03 13:07:08.000.440,C:\Users\hudson.dias\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Teste Alfa\uPrincipal.pas</Transaction>
+    <Transaction>2020/11/03 13:07:08.000.440,C:\Users\hudson.dias\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\Teste Alfa\uPrincipal.dfm</Transaction>
+    <Transaction>2020/11/03 13:07:25.000.625,C:\Users\hudson.dias\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Teste Alfa\Crud.dproj</Transaction>
+    <Transaction>2020/11/03 16:08:23.000.979,=D:\Teste Alfa\Unit1.pas</Transaction>
+    <Transaction>2020/11/03 16:08:33.000.302,D:\Teste Alfa\Unit1.pas=D:\Teste Alfa\uDM.pas</Transaction>
+    <Transaction>2020/11/03 16:08:33.000.302,D:\Teste Alfa\Unit1.dfm=D:\Teste Alfa\uDM.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
