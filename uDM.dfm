@@ -84,8 +84,8 @@ object DM: TDM
   object cdsCliente: TClientDataSet
     Aggregates = <>
     Params = <>
-    Left = 73
-    Top = 96
+    Left = 65
+    Top = 80
     object cdsClienteUserName: TStringField
       FieldName = 'UserName'
       Size = 50
@@ -166,5 +166,19 @@ object DM: TDM
   object RESTNovoResponse: TRESTResponse
     Left = 304
     Top = 368
+  end
+  object cdsEmails: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 64
+    Top = 136
+    object cdsEmailsUserName: TStringField
+      FieldName = 'UserName'
+      Size = 50
+    end
+    object cdsEmailsEmails: TStringField
+      FieldName = 'Emails'
+      Size = 50
+    end
   end
 end

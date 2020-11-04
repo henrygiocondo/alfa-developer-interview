@@ -35,6 +35,9 @@ type
     RESTNovoClient: TRESTClient;
     RESTNovoRequest: TRESTRequest;
     RESTNovoResponse: TRESTResponse;
+    cdsEmails: TClientDataSet;
+    cdsEmailsUserName: TStringField;
+    cdsEmailsEmails: TStringField;
   private
     { Private declarations }
   public

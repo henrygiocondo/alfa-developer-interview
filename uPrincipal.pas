@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, REST.Types, Data.DB, Datasnap.DBClient, Vcl.Grids, Vcl.DBGrids,
-  REST.Client, Data.Bind.Components, Data.Bind.ObjectScope, System.JSON, Vcl.StdCtrls, Vcl.Mask, Vcl.DBCtrls;
+  REST.Client, Data.Bind.Components, Data.Bind.ObjectScope, System.JSON, Vcl.StdCtrls, Vcl.Mask, Vcl.DBCtrls, Vcl.ComCtrls, Vcl.Buttons;
 
 type
   TFormPrincipal = class(TForm)
@@ -42,6 +42,12 @@ type
     Label12: TLabel;
     ed_email: TEdit;
     Memo_base: TMemo;
+    PageControl1: TPageControl;
+    TabLista: TTabSheet;
+    TabEmail: TTabSheet;
+    SpeedButton1: TSpeedButton;
+    DBGrid3: TDBGrid;
+    dsEmail: TDataSource;
     procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
@@ -49,6 +55,8 @@ type
     procedure Button3Click(Sender: TObject);
     procedure Button4Click(Sender: TObject);
     procedure Button5Click(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure PageControl1Change(Sender: TObject);
   private
     { Private declarations }
     procedure addCliente(UserName, FirstName, LastName, MiddleName, Gender, Age, FavoriteFeature, HomeAddress : String);
@@ -99,14 +107,15 @@ begin
 
         TThread.Synchronize(nil, procedure
         var
-          i : integer;
+          i, l : integer;
           Json, UserName, FirstName, LastName, MiddleName, Gender, Age, FavoriteFeature, HomeAddress, email1, email2: string;
-          jv, LItem: TJSONValue;
-          ja: TJSONArray;
-          valor: Float64;
-          jsonObj, jSubObj: TJsonObject;
+          jv: TJSONValue;
+          ja, aJsonEmail: TJSONArray;
+          jsonObj, jSubObj, oJson: TJsonObject;
         begin
           DM.cdsCliente.EmptyDataSet;
+          DM.cdsEmails.EmptyDataSet;
+
           Json := DM.RESTRequestLista.Response.JSONValue.ToString;
           jsonObj := TJsonObject.ParseJSONValue(TEncoding.UTF8.GetBytes(Json), 0) as TJsonObject;
           jv := jsonObj.Get('value').JsonValue;
@@ -124,6 +133,17 @@ begin
             Age                     := Ja.Get(i).GetValue<string>('Age');
             FavoriteFeature         := Ja.Get(i).GetValue<string>('FavoriteFeature');
             HomeAddress             := '';
+
+            oJson := ja.Items[i] as TJSONObject;
+            aJsonEmail := oJson.Get('Emails').JsonValue as TJSONArray;
+
+            for l := 0 to aJsonEmail.Count - 1 do
+            begin
+              DM.cdsEmails.insert;
+              DM.cdsEmailsUserName.value   := UserName;
+              DM.cdsEmailsEmails.Value     := aJsonEmail.Items[l].Value;
+              DM.cdsEmails.post;
+            end;
             addCliente(UserName, FirstName, LastName, MiddleName, Gender, Age, FavoriteFeature, HomeAddress);
           end;
 
@@ -135,10 +155,9 @@ procedure TFormPrincipal.Button2Click(Sender: TObject);
 Var
   Endeco, nome, url : String;
 begin
-
       TThread.CreateAnonymousThread(procedure
       begin
-        url := 'https://services.odata.org/TripPinRESTierService/People?$filter=contains(UserName, ' + QuotedStr(edNome.text) +')';
+        url := 'https://services.odata.org/TripPinRESTierService/(S(gvydrytrrdk03nnxzikpgeha))/People?$filter=contains(UserName, ' + QuotedStr(edNome.text) +')';
         Dm.RESTClient.BaseURL := url;
         DM.RESTRequestCliente.Execute;
 
@@ -226,8 +245,8 @@ begin
           for i := 0 to ja.Size - 1 do
           begin
 
-            Name                := Ja.Get(i).GetValue<string>('Name');
-            IcaoCode               := Ja.Get(i).GetValue<string>('IcaoCode');
+            Name                    := Ja.Get(i).GetValue<string>('Name');
+            IcaoCode                := Ja.Get(i).GetValue<string>('IcaoCode');
             IataCode                := Ja.Get(i).GetValue<string>('IataCode');
 
             addAero(Name, IcaoCode, IataCode);
@@ -283,14 +302,37 @@ procedure TFormPrincipal.FormClose(Sender: TObject; var Action: TCloseAction);
 begin
   DM.cdsCliente.Close;
   dm.cdsAeroporto.Close;
+  DM.cdsEmails.Close;
 end;
 
 procedure TFormPrincipal.FormCreate(Sender: TObject);
 begin
   DM.cdsCliente.CreateDataSet;
   dm.cdsAeroporto.CreateDataSet;
+  DM.cdsEmails.CreateDataSet;
   DM.cdsCliente.Open;
   dm.cdsAeroporto.Open;
+  DM.cdsEmails.Open;
+end;
+
+procedure TFormPrincipal.FormShow(Sender: TObject);
+begin
+  PageControl1.ActivePage := TabLista;
+end;
+
+procedure TFormPrincipal.PageControl1Change(Sender: TObject);
+begin
+  if PageControl1.ActivePage = TabEmail then
+  begin
+    if dm.cdsCliente.RecordCount <= 0 then
+    begin
+      PageControl1.ActivePage := TabLista;
+      abort;
+    end;
+    dm.cdsEmails.Filtered := false;
+    dm.cdsEmails.Filter := 'UserName LIKE ''%' + dm.cdsClienteUserName.Value + '%''';
+    dm.cdsEmails.Filtered := true;
+  end;
 end;
 
 end.
