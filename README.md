@@ -1,31 +1,44 @@
-# DEVELOPER INTERVIEW
+# DEVELOPER INTERVIEW - RESOLUÇÃO DE LUCIANO LEAL
 
-Este teste tem como objetivo não apenas enteder o conhecimento técnico do candidato com linguagem A, B ou C, mas também sua capacidade de:
-* ***ler documentações***
-* ***entender e executar o que está sendo solicitado***
-* ***solucionar problemas***
-* ***organizar o código***
+## Como executar
 
-Além de é claro ***conhecer a qualidade, legibilidade do código, as suas escolhas técnicas e a lógica utilizada***.
+Assumindo que a máquina já tenha npm instalado, dentro da pasta do projeto rodar o comando:
 
-Para enviar seu teste basta forkar esse repositório e criar o seu projeto (ou workspace) usando a sua versão desse repositório, tão logo acabe o teste, submeta um pull request.
+`npm install`
 
+em seguida:
 
-# VAMOS LÁ?
+`npm run start`
 
-### [OData.org](https://www.odata.org/)
->**OData (Open Data Protocol)** é um padrão OASIS aprovado pela ISO / IEC que define um conjunto de práticas recomendadas para criar e consumir APIs RESTful. 
+O prompt de comando irá exibir as mensagens conforme a API é consultada.
 
->O **OData** ajuda você a se concentrar na lógica de negócios enquanto cria APIs RESTful sem se preocupar com as várias abordagens para definir cabeçalhos de solicitação e resposta, códigos de status, métodos HTTP, convenções de URL, tipos de mídia, formatos de carga útil, opções de consulta etc. 
+## Considerações Técnicas
 
->O **OData** também fornece orientação para rastrear alterações, definir funções / ações para procedimentos reutilizáveis e enviar solicitações assíncronas / em lote.
+Achei o desafio bem interessante, porque a API é um pouco diferente do que
+estou acostumado: a 'chave' de uso é retornada via um redirect. Para tal,
+usei o próprio https do Node onde isso fica bem fácil de detectar, e para as
+outras chamadas usei o Axios. Em certo momento pensei em fazer tudo com https,
+mas ficaria verboso demais.
 
-Usando uma linguagem de programação de sua preferência, consuma os dados [deste serviço padrão OData](https://services.odata.org/TripPinRESTierService/(S(kgoeuh1x0jveff0efe4lodbl))/) executando as operações:
+Criei uma função 'logar' ao invés do console.log porque na minha experiência
+no dia-a-dia sempre é necessário fazer isso ao invés de chamar direto o console.
+Adicionei a hora na mensagem pra dar uma ideia de tempo de duração das requisições.
 
-Referência [OData Services](https://www.odata.org/odata-services/)
+A busca de dados com o usuário 'Henry' não está retornando resultados (nem em minúsculo),
+então deixei esse termo parametrizável, assim como o do endereço. Para buscar com
+outros termos, utilizar usuario=valor ou endereco=valor para alterar o termo
+da primeira e da quarta demanda, respectivamente.
 
-- [ ] Consultar ***nome*** e ***sobrenome*** das ***pessoas*** com ***nome de usuário*** que contenha ***Henry***
-- [ ] ***Incluir*** uma pessoa
-- [ ] ***Excluir*** a pessoa que você incluiu acima
-- [ ] Consultar todos os aeroportos que o ***endereço da localização*** contenha a palavra 'District'
+`npm run start usuario=a`
 
+ou
+
+`npm run start usuario=a endereco=Road`
+
+Quanto menos letras no termo, maior a chance de retornar algum resultado. A busca na API é case sentitive.
+
+Espero que gostem do código, foi bem divertido fazer. Obrigado pela consideração!
+
+Abraços,
+
+Luciano Leal - http://LucianoLeal.com
