@@ -1,0 +1,22 @@
+{
+  "name": "alfa-developer-interview",
+  "version": "1.0.0",
+  "description": "Entrevista de Luciano de Maria Leal",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrygiocondo/alfa-developer-interview.git"
+  },
+  "author": "Luciano Leal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henrygiocondo/alfa-developer-interview/issues"
+  },
+  "homepage": "https://github.com/henrygiocondo/alfa-developer-interview#readme",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
