@@ -1,0 +1,22 @@
+{
+  "name": "alfa-developer-interview",
+  "version": "1.0.0",
+  "description": "Alfa Developer Interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gofmyself/alfa-developer-interview.git"
+  },
+  "author": "Gabriel Andre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gofmyself/alfa-developer-interview/issues"
+  },
+  "homepage": "https://github.com/gofmyself/alfa-developer-interview#readme",
+  "dependencies": {
+    "odata": "^1.2.1"
+  }
+}
