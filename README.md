@@ -29,7 +29,7 @@ Referência [OData Services](https://www.odata.org/odata-services/)
 - [ ] ***Excluir*** a pessoa que você incluiu acima
 - [ ] Consultar todos os aeroportos que o ***endereço da localização*** contenha a palavra 'District'
 
-**Requisitos:**
+# Requisitos:
 
 * Ter node.js instalado na maquina.
 * Ter npm instalado
@@ -44,15 +44,15 @@ Referência [OData Services](https://www.odata.org/odata-services/)
 
 * node .\src\index.js
 
-Será solicitado para escolher uma opção, dentre elas:
+**Será solicitado para escolher uma opção, dentre elas:**
 
-[1] Consultar nome e sobrenome: ( Pede-se para usar o nome "Henry")
-[2] Incluir Pessoa ( Não se esqueça do UserName para então depois excluir)
-[3] Excluir Pessoa ( A exclusão é feita a partir do UserName)
-[4] Consultar todos os aeroportos que o endereco da localizacao contenha a palavra:  District
-[0] CANCEL
+- [1] Consultar nome e sobrenome: ( Pede-se para usar o nome "Henry")
+- [2] Incluir Pessoa ( Não se esqueça do UserName para então depois excluir)
+- [3] Excluir Pessoa ( A exclusão é feita a partir do UserName)
+- [4] Consultar todos os aeroportos que o endereco da localizacao contenha a palavra:  District
+- [0] CANCEL
 
 Observações: 
 
 * A busca na API é Case Sensitive. 
-* Quando tentei enviar o MiddleName e Gender, estava dando um erro, então deixei comentado por enquanto.
+* Quando tentei enviar o MiddleName e Gender, estava dando erro, então deixei comentado por enquanto.
