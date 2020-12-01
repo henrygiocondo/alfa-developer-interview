@@ -52,7 +52,7 @@ Referência [OData Services](https://www.odata.org/odata-services/)
 - [4] Consultar todos os aeroportos que o endereco da localizacao contenha a palavra:  District
 - [0] CANCEL
 
-Observações: 
+**Observações:**
 
 * A busca na API é Case Sensitive. 
 * Quando tentei enviar o MiddleName e Gender, estava dando erro, então deixei comentado por enquanto.
