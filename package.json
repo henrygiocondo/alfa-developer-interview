@@ -1,0 +1,24 @@
+{
+  "name": "alfa-developer-interview",
+  "version": "1.0.0",
+  "description": "Este teste tem como objetivo não apenas enteder o conhecimento técnico do candidato com linguagem A, B ou C, mas também sua capacidade de:\r * ***ler documentações***\r * ***entender e executar o que está sendo solicitado***\r * ***solucionar problemas***\r * ***organizar o código***",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarfernandes/alfa-developer-interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarfernandes/alfa-developer-interview/issues"
+  },
+  "homepage": "https://github.com/tarfernandes/alfa-developer-interview#readme",
+  "dependencies": {
+    "odata": "^1.2.1",
+    "readline-sync": "^1.4.10"
+  }
+}

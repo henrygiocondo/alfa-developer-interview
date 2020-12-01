@@ -29,3 +29,33 @@ Referência [OData Services](https://www.odata.org/odata-services/)
 - [ ] ***Excluir*** a pessoa que você incluiu acima
 - [ ] Consultar todos os aeroportos que o ***endereço da localização*** contenha a palavra 'District'
 
+# Requisitos:
+
+* Ter node.js instalado na maquina.
+* Ter npm instalado
+
+**Para iniciar, vamos primeiro executar as dependências:**
+
+* npm init -y
+* npm install readline-sync
+* npm install odata 
+
+**Após instalar as dependências, para executar a aplicação, execute o comando:**
+
+* node .\src\index.js
+
+**Será solicitado para escolher uma opção, dentre elas:**
+
+- [1] Consultar nome e sobrenome: ( Pede-se para usar o nome "Henry")
+- [2] Incluir Pessoa ( Não se esqueça do UserName para então depois excluir)
+- [3] Excluir Pessoa ( A exclusão é feita a partir do UserName)
+- [4] Consultar todos os aeroportos que o endereco da localizacao contenha a palavra:  District
+- [0] CANCEL
+
+**Observações:**
+
+* A busca na API é Case Sensitive. 
+* Quando tentei enviar o MiddleName e Gender, estava dando erro, então deixei comentado por enquanto.
+* No retorno da listagem de airports está retornando: City: [Object]
+* Na inclusão de usuario, mesmo passando as informações, esta ocorrendo o mesmo problema em "City":
+  AddressInfo: [ { Address: 'Tar', City: [Object] } ], 
