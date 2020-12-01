@@ -56,3 +56,6 @@ Referência [OData Services](https://www.odata.org/odata-services/)
 
 * A busca na API é Case Sensitive. 
 * Quando tentei enviar o MiddleName e Gender, estava dando erro, então deixei comentado por enquanto.
+* No retorno da listagem de airports está retornando: City: [Object]
+* Na inclusão de usuario, mesmo passando as informações, esta ocorrendo o mesmo problema em "City":
+  AddressInfo: [ { Address: 'Tar', City: [Object] } ], 
