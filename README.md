@@ -29,18 +29,18 @@ Referência [OData Services](https://www.odata.org/odata-services/)
 - [ ] ***Excluir*** a pessoa que você incluiu acima
 - [ ] Consultar todos os aeroportos que o ***endereço da localização*** contenha a palavra 'District'
 
-Requisitos:
+**Requisitos:**
 
 * Ter node.js instalado na maquina.
 * Ter npm instalado
 
-Para iniciar, vamos primeiro executar as dependências:
+**Para iniciar, vamos primeiro executar as dependências:**
 
 * npm init -y
 * npm install readline-sync
 * npm install odata 
 
-Após instalar as dependências, para executar a aplicação, execute o comando:
+**Após instalar as dependências, para executar a aplicação, execute o comando:**
 
 * node .\src\index.js
 
