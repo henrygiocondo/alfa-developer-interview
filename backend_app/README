@@ -1,0 +1,24 @@
+
+# node-api-consuming-oDataServices
+## About
+RESTful API built using Node + Express technologies.
+
+## Requirements
+Be sure you have **node** and **npm** installed, you can download easily in the [official website](https://nodejs.org/en/download/).
+After the installation you can open the terminal and test both node and npm typing
+```
+node -v
+```
+This way you'll get node's respective version if the installation was fully OK.
+```
+npm -v
+```
+This way you test the npm, the same way you test node.
+If you have both messages you are ready to go! :)
+The **npm** is used to install and manage project dependencies and run it by command line, **becomes with node instalation**.
+## How to use
+To run the application you must have installed NodeJS and npm, click [here](https://nodejs.org/) to go to the offical website and download.
+With everything configured, you must open your personal terminal and go to the `src/server.js` folder.
+Run `npm i` to intall all the dependecies. This process may take a while.
+Run `npm start` to start the application and that's all.
+To stop the running application press `ctrl + c` and `S` after.
