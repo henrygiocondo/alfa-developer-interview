@@ -1,0 +1,66 @@
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Alfa Test.dll.config
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Alfa Test.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Alfa Test.pdb
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Microsoft.Data.Edm.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Microsoft.Data.OData.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Microsoft.OData.Client.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Microsoft.OData.Core.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Microsoft.OData.Edm.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Microsoft.Spatial.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.Buffers.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.Memory.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.Numerics.Vectors.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.Spatial.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.Text.Encodings.Web.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.Text.Json.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.ValueTuple.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Microsoft.Data.Edm.xml
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Microsoft.Data.OData.xml
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Microsoft.OData.Client.xml
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Microsoft.OData.Core.xml
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Microsoft.OData.Edm.xml
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\Microsoft.Spatial.xml
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.Buffers.xml
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.Memory.xml
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.Numerics.Vectors.xml
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.Spatial.xml
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.Text.Encodings.Web.xml
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.Text.Json.xml
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\System.ValueTuple.xml
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\de\System.Spatial.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\es\System.Spatial.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\fr\System.Spatial.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\it\System.Spatial.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\ja\System.Spatial.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\ko\System.Spatial.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\ru\System.Spatial.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\obj\Debug\Alfa Test.csproj.CoreCompileInputs.cache
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\obj\Debug\Alfa Test.csproj.CopyComplete
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\obj\Debug\Alfa Test.dll
+C:\Thales\Projetos\Teste\Alfa Test\Alfa Test\obj\Debug\Alfa Test.pdb

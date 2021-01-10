@@ -1,0 +1,19 @@
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\obj\Debug\ConsoleTest.csprojAssemblyReference.cache
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\obj\Debug\ConsoleTest.csproj.CoreCompileInputs.cache
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\bin\Debug\ConsoleTest.exe
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\bin\Debug\ConsoleTest.pdb
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\bin\Debug\Alfa Test.dll
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\bin\Debug\Microsoft.OData.Client.dll
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\bin\Debug\Microsoft.OData.Edm.dll
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\bin\Debug\Microsoft.Spatial.dll
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\bin\Debug\Microsoft.OData.Core.dll
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\bin\Debug\Alfa Test.pdb
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\bin\Debug\Alfa Test.dll.config
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\bin\Debug\Microsoft.OData.Client.xml
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\bin\Debug\Microsoft.OData.Edm.xml
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\bin\Debug\Microsoft.Spatial.xml
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\bin\Debug\Microsoft.OData.Core.xml
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\obj\Debug\ConsoleTest.csproj.CopyComplete
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\obj\Debug\ConsoleTest.exe
+C:\Thales\Projetos\Teste\Alfa Test\ConsoleTest\obj\Debug\ConsoleTest.pdb
