@@ -1,0 +1,14 @@
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Business\bin\Debug\netcoreapp3.1\ConsoleApp.Business.deps.json
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Business\bin\Debug\netcoreapp3.1\ConsoleApp.Business.dll
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Business\bin\Debug\netcoreapp3.1\ConsoleApp.Business.pdb
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Business\bin\Debug\netcoreapp3.1\ConsoleApp.Data.dll
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Business\bin\Debug\netcoreapp3.1\ConsoleApp.Shared.dll
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Business\bin\Debug\netcoreapp3.1\ConsoleApp.Data.pdb
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Business\bin\Debug\netcoreapp3.1\ConsoleApp.Shared.pdb
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Business\obj\Debug\netcoreapp3.1\ConsoleApp.Business.csprojAssemblyReference.cache
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Business\obj\Debug\netcoreapp3.1\ConsoleApp.Business.AssemblyInfoInputs.cache
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Business\obj\Debug\netcoreapp3.1\ConsoleApp.Business.AssemblyInfo.cs
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Business\obj\Debug\netcoreapp3.1\ConsoleApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Business\obj\Debug\netcoreapp3.1\ConsoleApp.Business.csproj.CopyComplete
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Business\obj\Debug\netcoreapp3.1\ConsoleApp.Business.dll
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Business\obj\Debug\netcoreapp3.1\ConsoleApp.Business.pdb
