@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sy1JBfvoIVzRft3j6MkbdBej9zTTjgxcSDajhWM2xoWhErf8mdFIsE49zXyuNCxMlB5AveSR54MVysrKtwVORw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marce\\source\\repos\\AlfaConsoleApp\\ConsoleApp.Business\\ConsoleApp.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marce\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+  ],
+  "logs": []
+}

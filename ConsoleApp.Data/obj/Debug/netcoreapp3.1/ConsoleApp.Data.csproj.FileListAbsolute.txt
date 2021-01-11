@@ -1,0 +1,12 @@
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Data\bin\Debug\netcoreapp3.1\ConsoleApp.Shared.dll
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Data\obj\Debug\netcoreapp3.1\ConsoleApp.Data.AssemblyInfoInputs.cache
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Data\obj\Debug\netcoreapp3.1\ConsoleApp.Data.AssemblyInfo.cs
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Data\obj\Debug\netcoreapp3.1\ConsoleApp.Data.csprojAssemblyReference.cache
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Data\bin\Debug\netcoreapp3.1\ConsoleApp.Data.deps.json
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Data\bin\Debug\netcoreapp3.1\ConsoleApp.Data.dll
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Data\bin\Debug\netcoreapp3.1\ConsoleApp.Data.pdb
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Data\bin\Debug\netcoreapp3.1\ConsoleApp.Shared.pdb
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Data\obj\Debug\netcoreapp3.1\ConsoleApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Data\obj\Debug\netcoreapp3.1\ConsoleApp.Data.csproj.CopyComplete
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Data\obj\Debug\netcoreapp3.1\ConsoleApp.Data.dll
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Data\obj\Debug\netcoreapp3.1\ConsoleApp.Data.pdb

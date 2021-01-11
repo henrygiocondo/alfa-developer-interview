@@ -1,0 +1,9 @@
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Shared\bin\Debug\netcoreapp3.1\ConsoleApp.Shared.deps.json
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Shared\bin\Debug\netcoreapp3.1\ConsoleApp.Shared.dll
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Shared\bin\Debug\netcoreapp3.1\ConsoleApp.Shared.pdb
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Shared\obj\Debug\netcoreapp3.1\ConsoleApp.Shared.csprojAssemblyReference.cache
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Shared\obj\Debug\netcoreapp3.1\ConsoleApp.Shared.AssemblyInfoInputs.cache
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Shared\obj\Debug\netcoreapp3.1\ConsoleApp.Shared.AssemblyInfo.cs
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Shared\obj\Debug\netcoreapp3.1\ConsoleApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Shared\obj\Debug\netcoreapp3.1\ConsoleApp.Shared.dll
+C:\Users\marce\source\repos\AlfaConsoleApp\ConsoleApp.Shared\obj\Debug\netcoreapp3.1\ConsoleApp.Shared.pdb
