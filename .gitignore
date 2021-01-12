@@ -1,0 +1,11 @@
+node_modules
+.vscode/**
+package-lock.json
+.env
+test.env
+build
+dist
+nvm
+.idea/**
+yarn-error.log
+yarn.lock
