@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "strictPropertyInitialization": false,
+    "rootDir": "src",
+    "outDir": "build",
+    "declaration": true,
+    "typeRoots": ["./@types","./node_modules/@types"]
+  },
+  "exclude":[
+    "node_modules",
+    "__tests__",
+    "./build"
+  ]
+}

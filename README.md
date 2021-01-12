@@ -24,7 +24,7 @@ Usando uma linguagem de programação de sua preferência, consuma os dados [des
 
 Referência [OData Services](https://www.odata.org/odata-services/)
 
-- [ ] Consultar ***nome*** e ***sobrenome*** das ***pessoas*** com ***nome de usuário*** que contenha ***Henry***
+- [ x ] Consultar ***nome*** e ***sobrenome*** das ***pessoas*** com ***nome de usuário*** que contenha ***Henry***
 - [ ] ***Incluir*** uma pessoa
 - [ ] ***Excluir*** a pessoa que você incluiu acima
 - [ ] Consultar todos os aeroportos que o ***endereço da localização*** contenha a palavra 'District'
