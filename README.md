@@ -1,3 +1,38 @@
+<h4 align="center"> 
+    (Teste)-Alfa Developer Interview
+</h4>
+
+## :rocket: Tecnologias
+Este projeto foi desenvolvido com as seguintes tecnologias
+ 
+- [Node.js](https://nodejs.org/en/) 
+- [React](https://reactjs.org)
+
+
+## :page_with_curl: Como Usar
+- **Clone o repositório**
+- **backend** 
+    - ```cd backend```
+    - ```yarn```
+    - ```yarn dev``` `
+    
+- **Front-end** 
+    - ```cd web```
+    - ```yarn```
+    - ```yarn start``` `
+
+## :computer: Front-End Web :heavy_check_mark:
+
+<h1 align="center">
+    <img alt="Desktop" title="Desktop" src="desktop.png" width="800px" />
+</h1>
+
+## :memo: License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+
+
 # DEVELOPER INTERVIEW
 
 Este teste tem como objetivo não apenas enteder o conhecimento técnico do candidato com linguagem A, B ou C, mas também sua capacidade de:
@@ -24,8 +59,8 @@ Usando uma linguagem de programação de sua preferência, consuma os dados [des
 
 Referência [OData Services](https://www.odata.org/odata-services/)
 
-- [ ] Consultar ***nome*** e ***sobrenome*** das ***pessoas*** com ***nome de usuário*** que contenha ***Henry***
-- [ ] ***Incluir*** uma pessoa
-- [ ] ***Excluir*** a pessoa que você incluiu acima
-- [ ] Consultar todos os aeroportos que o ***endereço da localização*** contenha a palavra 'District'
+- [X] Consultar ***nome*** e ***sobrenome*** das ***pessoas*** com ***nome de usuário*** que contenha ***Henry***
+- [X] ***Incluir*** uma pessoa
+- [X] ***Excluir*** a pessoa que você incluiu acima
+- [X] Consultar todos os aeroportos que o ***endereço da localização*** contenha a palavra 'District'
 
